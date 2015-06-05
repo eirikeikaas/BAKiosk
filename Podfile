@@ -1,0 +1,1 @@
+pod 'KASlideShow', '~> 1.0'

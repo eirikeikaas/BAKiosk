@@ -1,0 +1,10 @@
+PODS:
+  - KASlideShow (1.1)
+
+DEPENDENCIES:
+  - KASlideShow (~> 1.0)
+
+SPEC CHECKSUMS:
+  KASlideShow: 95b0e0a7d4500c7ff4ee0e907ae6a88d6977f48b
+
+COCOAPODS: 0.36.3

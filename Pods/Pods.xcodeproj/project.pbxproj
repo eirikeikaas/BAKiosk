@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		764C269E7EAF5DC2D46AD3D0 /* Pods-KASlideShow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7ACF3BFA4BB6FED04936059 /* Pods-KASlideShow-dummy.m */; };
+		8DC02F8E386CABFF015A29C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF0B2021DCDD1C43E616C2D /* Foundation.framework */; };
+		8E7CCF966938B8292491195B /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C39D292C3A9EBDA8EDAE1E /* Pods-dummy.m */; };
+		C71A437FD9FDB3BBF3830C72 /* KASlideShow.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D559EC273A72CBDD0F1A555 /* KASlideShow.h */; };
+		CF1E5DAB57D11DA4869754B7 /* KASlideShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6722D79FE4023084FFB754AB /* KASlideShow.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EFC8DF909100A3E2622D6E4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF0B2021DCDD1C43E616C2D /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17E8537C879D3BD7E789D470 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92EBE2828E6B930ED3D72580 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0EBE17C79A825F63C9C2190;
+			remoteInfo = "Pods-KASlideShow";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05C39D292C3A9EBDA8EDAE1E /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		121E08A3E43750F4DF459C86 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		28CC8D23503B4E47C1D5AB1F /* libPods-KASlideShow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KASlideShow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35038AA2E17C57CBFEB23D64 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		4474F31FBF0D854F199C6192 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		4709C9B521E774AC5E75CA21 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		4D559EC273A72CBDD0F1A555 /* KASlideShow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KASlideShow.h; path = KASlideShow/KASlideShow.h; sourceTree = "<group>"; };
+		4EF01B9020BAEA54F3120E0D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6722D79FE4023084FFB754AB /* KASlideShow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KASlideShow.m; path = KASlideShow/KASlideShow.m; sourceTree = "<group>"; };
+		692EB2E27FA7EF9F12350730 /* Pods-KASlideShow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KASlideShow-prefix.pch"; sourceTree = "<group>"; };
+		6BACFEF1C494513A24DECDF1 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7C9078B80B9D183B539164FA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		7CB35136A926FA63A64E6545 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		8EF0B2021DCDD1C43E616C2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A5CFB7E2556355BC93AE5F9E /* Pods-KASlideShow.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KASlideShow.xcconfig"; sourceTree = "<group>"; };
+		BE05B7DAAEF1525257965DC2 /* Pods-KASlideShow-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KASlideShow-Private.xcconfig"; sourceTree = "<group>"; };
+		D7ACF3BFA4BB6FED04936059 /* Pods-KASlideShow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KASlideShow-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0759D5505FEA1D7044433A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC02F8E386CABFF015A29C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8934B221A8AB685EE7B7DEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC8DF909100A3E2622D6E4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		050D2B2F2AD2F8FC8B962F90 /* KASlideShow */ = {
+			isa = PBXGroup;
+			children = (
+				4D559EC273A72CBDD0F1A555 /* KASlideShow.h */,
+				6722D79FE4023084FFB754AB /* KASlideShow.m */,
+				DAFABC6EFD3A498544E61B60 /* Support Files */,
+			);
+			path = KASlideShow;
+			sourceTree = "<group>";
+		};
+		12B7ED2EA6408C8C92443325 = {
+			isa = PBXGroup;
+			children = (
+				121E08A3E43750F4DF459C86 /* Podfile */,
+				8FF9E042559714E8D3A049DB /* Frameworks */,
+				F1BC8F1E190974B598CC4550 /* Pods */,
+				12C47483DEB6332135C85881 /* Products */,
+				8AE9046F76BD42FD0F6CBF75 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		12C47483DEB6332135C85881 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EF01B9020BAEA54F3120E0D /* libPods.a */,
+				28CC8D23503B4E47C1D5AB1F /* libPods-KASlideShow.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F54A8F7E302A1BF4EAB5BD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BACFEF1C494513A24DECDF1 /* Pods-acknowledgements.markdown */,
+				7CB35136A926FA63A64E6545 /* Pods-acknowledgements.plist */,
+				05C39D292C3A9EBDA8EDAE1E /* Pods-dummy.m */,
+				35038AA2E17C57CBFEB23D64 /* Pods-environment.h */,
+				4474F31FBF0D854F199C6192 /* Pods-resources.sh */,
+				4709C9B521E774AC5E75CA21 /* Pods.debug.xcconfig */,
+				7C9078B80B9D183B539164FA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		36849C5B362D4BC233F65380 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8EF0B2021DCDD1C43E616C2D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8AE9046F76BD42FD0F6CBF75 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F54A8F7E302A1BF4EAB5BD5 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8FF9E042559714E8D3A049DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36849C5B362D4BC233F65380 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAFABC6EFD3A498544E61B60 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5CFB7E2556355BC93AE5F9E /* Pods-KASlideShow.xcconfig */,
+				BE05B7DAAEF1525257965DC2 /* Pods-KASlideShow-Private.xcconfig */,
+				D7ACF3BFA4BB6FED04936059 /* Pods-KASlideShow-dummy.m */,
+				692EB2E27FA7EF9F12350730 /* Pods-KASlideShow-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-KASlideShow";
+			sourceTree = "<group>";
+		};
+		F1BC8F1E190974B598CC4550 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				050D2B2F2AD2F8FC8B962F90 /* KASlideShow */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		032CCA44F67AB98A5A29AADB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71A437FD9FDB3BBF3830C72 /* KASlideShow.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B0372132CB10E38D4047171D /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DE6873FA24FC092C819D82F /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				65647EA6AFFAA3CFEE962720 /* Sources */,
+				0759D5505FEA1D7044433A83 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F5EEFB78CF7B991FE0E1B8E /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 4EF01B9020BAEA54F3120E0D /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E0EBE17C79A825F63C9C2190 /* Pods-KASlideShow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84792046581478B7022A3513 /* Build configuration list for PBXNativeTarget "Pods-KASlideShow" */;
+			buildPhases = (
+				72F669D60876DBE80FB3B5B5 /* Sources */,
+				B8934B221A8AB685EE7B7DEA /* Frameworks */,
+				032CCA44F67AB98A5A29AADB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KASlideShow";
+			productName = "Pods-KASlideShow";
+			productReference = 28CC8D23503B4E47C1D5AB1F /* libPods-KASlideShow.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92EBE2828E6B930ED3D72580 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 0177743F0AD3F9B8C822F5D1 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 12B7ED2EA6408C8C92443325;
+			productRefGroup = 12C47483DEB6332135C85881 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0372132CB10E38D4047171D /* Pods */,
+				E0EBE17C79A825F63C9C2190 /* Pods-KASlideShow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65647EA6AFFAA3CFEE962720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7CCF966938B8292491195B /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F669D60876DBE80FB3B5B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1E5DAB57D11DA4869754B7 /* KASlideShow.m in Sources */,
+				764C269E7EAF5DC2D46AD3D0 /* Pods-KASlideShow-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F5EEFB78CF7B991FE0E1B8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KASlideShow";
+			target = E0EBE17C79A825F63C9C2190 /* Pods-KASlideShow */;
+			targetProxy = 17E8537C879D3BD7E789D470 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EF8D63AE2468E45F19B6A8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E509B6E94736548B2634C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE05B7DAAEF1525257965DC2 /* Pods-KASlideShow-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KASlideShow/Pods-KASlideShow-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4D139FC51C26AECB66E56B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6DE1A9D4883415C9EBA66918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C9078B80B9D183B539164FA /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E2AB34B304B36CC1527760BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4709C9B521E774AC5E75CA21 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ED5724F768E5FC9ADE41F0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE05B7DAAEF1525257965DC2 /* Pods-KASlideShow-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-KASlideShow/Pods-KASlideShow-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0177743F0AD3F9B8C822F5D1 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D139FC51C26AECB66E56B16 /* Debug */,
+				1EF8D63AE2468E45F19B6A8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DE6873FA24FC092C819D82F /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2AB34B304B36CC1527760BD /* Debug */,
+				6DE1A9D4883415C9EBA66918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84792046581478B7022A3513 /* Build configuration list for PBXNativeTarget "Pods-KASlideShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5724F768E5FC9ADE41F0B0 /* Debug */,
+				2E509B6E94736548B2634C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92EBE2828E6B930ED3D72580 /* Project object */;
+}
