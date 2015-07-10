@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E5A37DAF1B0744F300A69B3A"
-               BuildableName = "BAKiosk.app"
-               BlueprintName = "BAKiosk"
-               ReferencedContainer = "container:BAKiosk.xcodeproj">
+               BuildableName = "VegaKiosk.app"
+               BlueprintName = "VegaKiosk"
+               ReferencedContainer = "container:VegaKiosk.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E5A37DCB1B0744F300A69B3A"
-               BuildableName = "BAKioskTests.xctest"
-               BlueprintName = "BAKioskTests"
-               ReferencedContainer = "container:BAKiosk.xcodeproj">
+               BuildableName = "VegaKioskTests.xctest"
+               BlueprintName = "VegaKioskTests"
+               ReferencedContainer = "container:VegaKiosk.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E5A37DCB1B0744F300A69B3A"
-               BuildableName = "BAKioskTests.xctest"
-               BlueprintName = "BAKioskTests"
-               ReferencedContainer = "container:BAKiosk.xcodeproj">
+               BuildableName = "VegaKioskTests.xctest"
+               BlueprintName = "VegaKioskTests"
+               ReferencedContainer = "container:VegaKiosk.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E5A37DAF1B0744F300A69B3A"
-            BuildableName = "BAKiosk.app"
-            BlueprintName = "BAKiosk"
-            ReferencedContainer = "container:BAKiosk.xcodeproj">
+            BuildableName = "VegaKiosk.app"
+            BlueprintName = "VegaKiosk"
+            ReferencedContainer = "container:VegaKiosk.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E5A37DAF1B0744F300A69B3A"
-            BuildableName = "BAKiosk.app"
-            BlueprintName = "BAKiosk"
-            ReferencedContainer = "container:BAKiosk.xcodeproj">
+            BuildableName = "VegaKiosk.app"
+            BlueprintName = "VegaKiosk"
+            ReferencedContainer = "container:VegaKiosk.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E5A37DAF1B0744F300A69B3A"
-            BuildableName = "BAKiosk.app"
-            BlueprintName = "BAKiosk"
-            ReferencedContainer = "container:BAKiosk.xcodeproj">
+            BuildableName = "VegaKiosk.app"
+            BlueprintName = "VegaKiosk"
+            ReferencedContainer = "container:VegaKiosk.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

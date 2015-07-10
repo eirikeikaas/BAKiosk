@@ -557,7 +557,7 @@
 		E5719EF31B1BA2D1005530F6 /* presentasjon.020.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = presentasjon.020.jpg; sourceTree = "<group>"; };
 		E5719EF41B1BA2D1005530F6 /* presentasjon.021.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = presentasjon.021.jpg; sourceTree = "<group>"; };
 		E5719EF51B1BA2D1005530F6 /* presentasjon.022.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = presentasjon.022.jpg; sourceTree = "<group>"; };
-		E5A37DB01B0744F300A69B3A /* BAKiosk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BAKiosk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5A37DB01B0744F300A69B3A /* VegaKiosk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VegaKiosk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A37DB41B0744F300A69B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5A37DB51B0744F300A69B3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E5A37DB71B0744F300A69B3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -568,7 +568,7 @@
 		E5A37DC11B0744F300A69B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5A37DC31B0744F300A69B3A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E5A37DC61B0744F300A69B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		E5A37DCC1B0744F300A69B3A /* BAKioskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BAKioskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5A37DCC1B0744F300A69B3A /* VegaKioskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VegaKioskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A37DD11B0744F300A69B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5A37DD21B0744F300A69B3A /* BAKioskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAKioskTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -968,8 +968,8 @@
 		E5A37DB11B0744F300A69B3A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E5A37DB01B0744F300A69B3A /* BAKiosk.app */,
-				E5A37DCC1B0744F300A69B3A /* BAKioskTests.xctest */,
+				E5A37DB01B0744F300A69B3A /* VegaKiosk.app */,
+				E5A37DCC1B0744F300A69B3A /* VegaKioskTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1034,9 +1034,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E5A37DAF1B0744F300A69B3A /* BAKiosk */ = {
+		E5A37DAF1B0744F300A69B3A /* VegaKiosk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5A37DD61B0744F300A69B3A /* Build configuration list for PBXNativeTarget "BAKiosk" */;
+			buildConfigurationList = E5A37DD61B0744F300A69B3A /* Build configuration list for PBXNativeTarget "VegaKiosk" */;
 			buildPhases = (
 				8806B8FAAFA2CCE86157C234 /* Check Pods Manifest.lock */,
 				E5A37DAC1B0744F300A69B3A /* Sources */,
@@ -1048,14 +1048,14 @@
 			);
 			dependencies = (
 			);
-			name = BAKiosk;
+			name = VegaKiosk;
 			productName = BAKiosk;
-			productReference = E5A37DB01B0744F300A69B3A /* BAKiosk.app */;
+			productReference = E5A37DB01B0744F300A69B3A /* VegaKiosk.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E5A37DCB1B0744F300A69B3A /* BAKioskTests */ = {
+		E5A37DCB1B0744F300A69B3A /* VegaKioskTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5A37DD91B0744F300A69B3A /* Build configuration list for PBXNativeTarget "BAKioskTests" */;
+			buildConfigurationList = E5A37DD91B0744F300A69B3A /* Build configuration list for PBXNativeTarget "VegaKioskTests" */;
 			buildPhases = (
 				E5A37DC81B0744F300A69B3A /* Sources */,
 				E5A37DC91B0744F300A69B3A /* Frameworks */,
@@ -1066,9 +1066,9 @@
 			dependencies = (
 				E5A37DCE1B0744F300A69B3A /* PBXTargetDependency */,
 			);
-			name = BAKioskTests;
+			name = VegaKioskTests;
 			productName = BAKioskTests;
-			productReference = E5A37DCC1B0744F300A69B3A /* BAKioskTests.xctest */;
+			productReference = E5A37DCC1B0744F300A69B3A /* VegaKioskTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -1090,7 +1090,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E5A37DAB1B0744F200A69B3A /* Build configuration list for PBXProject "BAKiosk" */;
+			buildConfigurationList = E5A37DAB1B0744F200A69B3A /* Build configuration list for PBXProject "VegaKiosk" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1103,8 +1103,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E5A37DAF1B0744F300A69B3A /* BAKiosk */,
-				E5A37DCB1B0744F300A69B3A /* BAKioskTests */,
+				E5A37DAF1B0744F300A69B3A /* VegaKiosk */,
+				E5A37DCB1B0744F300A69B3A /* VegaKioskTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1448,7 +1448,7 @@
 /* Begin PBXTargetDependency section */
 		E5A37DCE1B0744F300A69B3A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E5A37DAF1B0744F300A69B3A /* BAKiosk */;
+			target = E5A37DAF1B0744F300A69B3A /* VegaKiosk */;
 			targetProxy = E5A37DCD1B0744F300A69B3A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1564,7 +1564,7 @@
 				INFOPLIST_FILE = BAKiosk/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = VegaKiosk;
 			};
 			name = Debug;
 		};
@@ -1577,7 +1577,7 @@
 				INFOPLIST_FILE = BAKiosk/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = VegaKiosk;
 			};
 			name = Release;
 		};
@@ -1595,7 +1595,7 @@
 				);
 				INFOPLIST_FILE = BAKioskTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = VegaKioskTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BAKiosk.app/BAKiosk";
 			};
 			name = Debug;
@@ -1610,7 +1610,7 @@
 				);
 				INFOPLIST_FILE = BAKioskTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = VegaKioskTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BAKiosk.app/BAKiosk";
 			};
 			name = Release;
@@ -1618,7 +1618,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E5A37DAB1B0744F200A69B3A /* Build configuration list for PBXProject "BAKiosk" */ = {
+		E5A37DAB1B0744F200A69B3A /* Build configuration list for PBXProject "VegaKiosk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E5A37DD41B0744F300A69B3A /* Debug */,
@@ -1627,7 +1627,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E5A37DD61B0744F300A69B3A /* Build configuration list for PBXNativeTarget "BAKiosk" */ = {
+		E5A37DD61B0744F300A69B3A /* Build configuration list for PBXNativeTarget "VegaKiosk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E5A37DD71B0744F300A69B3A /* Debug */,
@@ -1636,7 +1636,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E5A37DD91B0744F300A69B3A /* Build configuration list for PBXNativeTarget "BAKioskTests" */ = {
+		E5A37DD91B0744F300A69B3A /* Build configuration list for PBXNativeTarget "VegaKioskTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E5A37DDA1B0744F300A69B3A /* Debug */,
